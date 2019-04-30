@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "format": "prettier --write './**/*.{js,ts,md,json}'"
+  },
+  "dependencies": {
+    "ts-node": "8.1.0",
+    "typescript": "3.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "11.13.7",
+    "prettier": "1.17.0",
+    "tslint": "5.16.0",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "2.0.1"
+  }
+}
